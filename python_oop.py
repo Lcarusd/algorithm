@@ -2,7 +2,6 @@
 # Python语法相关面试题
 
 
-print("1、")
 class Parent(object):
     x = 1
 class Child1(Parent):
@@ -19,7 +18,8 @@ Parent.x = 3
 print(Parent.x, Child1.x, Child2.x)
 
 
-print("2、")
+
+
 def div1(x, y):
     print("%s/%s = %s" %(x, y, x/y))
 def div2(x, y):
@@ -30,18 +30,25 @@ div2(5, 2)           #
 div2(5., 2.)
 
 
-print("3、")
+
+
+
 list = ['a', 'b', 'c', 'd', 'e']
 print(list[10:])
 
 
-print("4、")
+
+
+
 def multiprocess():
 	return [lambda x:x * i for i in range(4)]
 print([m(2) for m in multiprocess()])
 
 
-print("5、")
+
+
+
+
 def extendList(val, list=[]):
     list.append(val)
     return list
